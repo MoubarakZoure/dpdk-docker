@@ -16,3 +16,5 @@ ovs-ofctl add-flow ovs-br0 \
   
  #show current flows
 ovs-ofctl dump-flows ovs-br0
+ovs-vsctl show
+
