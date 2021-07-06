@@ -1,0 +1,3 @@
+[submodule "docker-build/pktgen"]
+	path = docker-build/pktgen
+	url = https://github.com/pktgen/Pktgen-DPDK.git
