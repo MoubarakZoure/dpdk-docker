@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # creat_ports.sh
 #ovs use core 2 for the PMD
 ovs-vsctl set Open_vSwitch . other_config:pmd-cpu-mask=0x4
