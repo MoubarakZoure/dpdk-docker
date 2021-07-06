@@ -10,5 +10,5 @@ ovs-vsctl add-port ovs-br0 vhost-user1 -- set Interface vhost-user1 type=dpdkvho
 ovs-vsctl add-port ovs-br0 vhost-user2 -- set Interface vhost-user2 type=dpdkvhostuser
 ovs-vsctl add-port ovs-br0 vhost-user3 -- set Interface vhost-user3 type=dpdkvhostuser
 
- 11 #show ovs-br0 info
- 12 ovs-vsctl show
+#show ovs-br0 info
+ovs-vsctl show
