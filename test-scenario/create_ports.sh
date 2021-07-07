@@ -2,6 +2,7 @@
 
 # creat_ports.sh
 #ovs use core 2 for the PMD
+ovs-vsctl del-br ovs-br0
 ovs-vsctl set Open_vSwitch . other_config:pmd-cpu-mask=0x4
 #create br0 and vhost ports which use DPDK
 ovs-vsctl add-br ovs-br0 -- set bridge ovs-br0 datapath_type=netdev
