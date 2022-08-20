@@ -1,4 +1,5 @@
 # dpdk-docker
+The aim of this project is to run create a Docker container environnement to run DPDK-based applications.
 ### dpdk.version = 20.11.1
 ### dpdk directory = /usr/src/dpdk
 ### pktgen directory = /usr/pktgen/Builddir/app/pktgen
